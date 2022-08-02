@@ -1,0 +1,57 @@
+@import url("style.css");
+
+.annoucement-bar {
+	background: linear-gradient(to right, #cbfb45, #0f9cc9, #7b61ff);
+}
+.navbar {
+	height: 44px;
+}
+.navbar-brand {
+	font-family: Neue Machina;
+	font-size: 24px;
+	font-weight: 800;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.navbar-brand img {
+	height: 32px;
+	width: 39px;
+	position: relative;
+	left: 0px;
+	top: -6px;
+	border-radius: 0px;
+}
+#hero-wrap {
+	height: 550px;
+	margin-top: -50px;
+	padding-bottom: 60px;
+	background-image: url(../img/bg-image.png);
+	background-position: left top;
+	background-size: cover;
+	background-repeat: no-repeat, repeat;
+	border-bottom: 2px solid red;
+}
+h1.caption {
+	font-family: Neue Machina;
+	font-size: 56px;
+	font-weight: 800;
+	text-transform: uppercase;
+	line-height: 60px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+p.subtitle {
+	font-family: Apfel Grotezk;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+div.sponsor div{
+  width: 140px;
+}
+div.sponsor img{
+  height: 22px;
+}

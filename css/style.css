@@ -1,0 +1,88 @@
+@import url("icons/bootstrap-icons.css");
+@import url("bootstrap.min.css");
+
+@font-face {
+	font-family: Apfel Grotezk;
+	src: url(fonts/ApfelGrotezk-Regular.otf);
+	font-weight: normal;
+}
+@font-face {
+	font-family: Apfel Grotezk;
+	src: url(fonts/ApfelGrotezk-RegularBrukt.otf);
+	font-weight: bold;
+}
+@font-face {
+	font-family: Neue Machina;
+	src: url(fonts/NeueMachina-Regular.otf);
+	font-weight: normal;
+}
+@font-face {
+	font-family: Neue Machina;
+	src: url(fonts/NeueMachina-Ultrabold.otf);
+	font-weight: bold;
+}
+
+:root {
+	--prim-1: #cbfb45;
+	--prim-2: #70833c;
+	--sec-1: #161617;
+}
+*::selection {
+	color: var(--prim-1);
+	background-color: var(--sec-1);
+}
+body {
+	background-color: var(--sec-1) !important;
+	font-family: Apfel Grotezk, sans-serif;
+	font-size: 16.2px;
+	font-weight: 400;
+	line-height: 1.588;
+	-webkit-text-size-adjust: 100%;
+	color: var(--light);
+	/* overflow-x: hidden; */
+}
+.bg-prim {
+	background-color: var(--prim-1) !important;
+}
+.text-prim {
+	color: var(--prim-1);
+}
+.bg-sec {
+	background-color: var(--sec-1);
+}
+.text-sec {
+	color: var(--sec-1);
+}
+.btn-prim {
+	background-color: var(--prim-1);
+	color: var(--sec-1);
+	padding: 10px 25px;
+	border: 0;
+	border-radius: 0;
+	font-family: Neue Machina;
+	font-weight: 800;
+}
+
+.btn-tansparent {
+	background-color: transparent;
+	color: var(--light);
+	padding: 8px 23px;
+	border: 2px solid var(--light);
+	border-radius: 0;
+	font-family: Neue Machina;
+	font-weight: 800;
+}
+.bg-transparent{
+	background-color: transparent !important;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* // Extra large devices (large desktops, 1200px and up) */
+/* @media (min-width: 1200px) { ... } */
