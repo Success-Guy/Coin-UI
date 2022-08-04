@@ -26,6 +26,8 @@
 	--prim-1: #cbfb45;
 	--prim-2: #70833c;
 	--sec-1: #161617;
+	--main-font: Neue Machina;
+	--sec-font: Apfel Grotezk;
 }
 *::selection {
 	color: var(--prim-1);
@@ -72,8 +74,47 @@ body {
 	font-family: Neue Machina;
 	font-weight: 800;
 }
-.bg-transparent{
+.bg-transparent {
 	background-color: transparent !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6 {
+	font-family: var(--main-font);
+}
+h1 {
+	font-size: 67.35px;
+	line-height: 75.75px;
+}
+h2 {
+	font-size: 50.52px;
+	line-height: 56.8px;
+}
+h3 {
+	font-size: 37.9px;
+	line-height: 42.65px;
+}
+h4 {
+	font-size: 28.43px;
+	line-height: 32px;
+}
+h5 {
+	font-size: 21.33px;
+	line-height: 24px;
+}
+h6 {
+	font-size: 16px;
+	line-height: 18px;
+}
+.subtitle {
+	font-family: var(--sec-font);
+	font-size: 16px;
+	line-height: 20px;
+	opacity: 0.75;
 }
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {

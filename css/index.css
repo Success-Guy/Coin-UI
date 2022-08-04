@@ -23,25 +23,22 @@
 	border-radius: 0px;
 }
 #hero-wrap {
-	height: 550px;
+	/* height: 746px; */
 	margin-top: -50px;
 	padding-bottom: 60px;
 	background-image: url(../img/bg-image.png);
 	background-position: left top;
 	background-size: cover;
 	background-repeat: no-repeat, repeat;
-	border-bottom: 2px solid red;
+	/* border-bottom: 2px solid red; */
 }
-h1.caption {
-	font-family: Neue Machina;
-	font-size: 56px;
+.caption {
 	font-weight: 800;
 	text-transform: uppercase;
-	line-height: 60px;
 	letter-spacing: 0em;
 	text-align: left;
 }
-p.subtitle {
+p.sub {
 	font-family: Apfel Grotezk;
 	font-size: 20px;
 	font-weight: 400;
@@ -49,9 +46,24 @@ p.subtitle {
 	letter-spacing: 0em;
 	text-align: left;
 }
-div.sponsor div{
-  width: 140px;
+div.sponsor div {
+	width: 140px;
 }
-div.sponsor img{
-  height: 22px;
+div.sponsor img {
+	height: 22px;
+}
+.right img {
+	/* height: 444px; */
+	/* width: 642px; */
+	/* left: 968px; */
+	width: 90%;
+	display: block;
+	position: relative;
+	/* top: 234px; */
+	bottom: -30px;
+	border-radius: 0px;
+}
+.features img{
+	height: 56px;
+	width: 56px;
 }
